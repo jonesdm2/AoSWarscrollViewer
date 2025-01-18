@@ -1,0 +1,62 @@
+{
+  "units": [
+    {
+      "name": "Liberators",
+      "models": 10,
+      "stats": {
+        "movement": 5,
+        "wounds": 2,
+        "save": "4+",
+        "bravery": 7,
+        "oc": 2
+      },
+      "rangedWeapons": [
+        {
+          "name": "Storm Bolter",
+          "range": "12\"",
+          "attacks": 2,
+          "toHit": "3+",
+          "toWound": "4+",
+          "rend": "-1",
+          "damage": 1
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Warhammer",
+          "range": "1\"",
+          "attacks": 2,
+          "toHit": "4+",
+          "toWound": "3+",
+          "rend": "-1",
+          "damage": 1
+        },
+        {
+          "name": "Grandhammer",
+          "range": "1\"",
+          "attacks": 2,
+          "toHit": "4+",
+          "toWound": "3+",
+          "rend": "-2",
+          "damage": 2
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Lay Low the Tyrants",
+          "description": "Add 1 to wound rolls for attacks made with melee weapons by this unit that target a HERO or MONSTER."
+        },
+        {
+          "name": "Sigmarite Shields",
+          "description": "Roll a dice each time you allocate a wound or mortal wound to this unit. On a 6, that wound is negated."
+        }
+      ],
+      "keywords": [
+        "Order",
+        "Stormcast Eternals",
+        "Liberators",
+        "Battleline"
+      ]
+    }
+  ]
+}
